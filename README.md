@@ -7,3 +7,4 @@ Make sure you have configured aws properly. e.g. using `aws configure` or export
 Then run
 1. `cdk bootstrap`
 2. `cdk deploy`
+Then the app will be deployed to `us-east-1` region. You can change the region in `/bin/cdk-ecs.ts` file.
